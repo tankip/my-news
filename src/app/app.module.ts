@@ -10,6 +10,10 @@ import { TechComponent } from './tech/tech.component';
 import { SportsComponent } from './sports/sports.component';
 import { EntertainmentComponent } from './entertainment/entertainment.component';
 
+import { Ng2PaginationModule } from 'ng2-pagination';
+
+import { NewsService } from './news.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +26,7 @@ import { EntertainmentComponent } from './entertainment/entertainment.component'
     BrowserModule,
     FormsModule,
     HttpModule,
+    Ng2PaginationModule,
     RouterModule.forRoot([
       {
         path: '',
@@ -41,7 +46,7 @@ import { EntertainmentComponent } from './entertainment/entertainment.component'
       }
     ])
   ],
-  providers: [],
+  providers: [NewsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

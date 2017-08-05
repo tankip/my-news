@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { NewsService } from '../news.service';
+
 @Component({
   selector: 'app-entertainment',
   templateUrl: './entertainment.component.html',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntertainmentComponent implements OnInit {
 
-  constructor() { }
+  allNews = [];
+
+  constructor(private newsService:NewsService) { }
 
   ngOnInit() {
+    this.newsService.getEnterNews().subscribe((data) => {
+      this.allNews = data.articles;
+    })
   }
 
 }
