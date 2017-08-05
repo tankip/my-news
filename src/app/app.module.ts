@@ -2,17 +2,44 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { TechComponent } from './tech/tech.component';
+import { SportsComponent } from './sports/sports.component';
+import { EntertainmentComponent } from './entertainment/entertainment.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    TechComponent,
+    SportsComponent,
+    EntertainmentComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot([
+      {
+        path: '',
+        component: HomeComponent
+      },
+      {
+        path: 'entertainment',
+        component: EntertainmentComponent
+      },
+      {
+        path: 'technology',
+        component: TechComponent
+      },
+      {
+        path: 'sports',
+        component: SportsComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
