@@ -1,3 +1,75 @@
-<h1>
-  {{title}}
-</h1>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+  <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+    <div class="mdl-layout__header-row">
+      <span class="android-title mdl-layout-title">
+        <h2 class="android-section-title" style="color: #8bc34a;">My News</h2>
+        <!--img class="android-logo-image" src="assets/images/android-logo.png"-->
+      </span>
+      <!-- Add spacer, to align navigation to the right in desktop -->
+      <div class="android-header-spacer mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <div class="android-navigation-container">
+        <nav class="android-navigation mdl-navigation">
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" routerLink="/">HOME</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" routerLink="/entertainment">ENTERTAINMENT</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" routerLink="/technology">TECHNOLOGY</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" routerLink="/sports">SPORTS</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" routerLink="/">ABOUT US</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" routerLink="/">CONTACT US</a>
+        </nav>
+      </div>
+      <span class="android-mobile-title mdl-layout-title">
+        <span style="color: #8bc34a;">My News</span>
+        <!--img class="android-logo-image" src="assets/images/android-logo.png"-->
+      </span>
+    </div>
+  </div>
+
+  <div class="android-drawer mdl-layout__drawer">
+    <span class="mdl-layout-title">
+      <h3>My News</h3>
+    </span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" routerLink="/">HOME</a>
+      <a class="mdl-navigation__link" routerLink="/entertainment">ENTERTAINMENT</a>
+      <a class="mdl-navigation__link" routerLink="/technology">TECHNOLOGY</a>
+      <a class="mdl-navigation__link" routerLink="/sports">SPORTS</a>
+      <div class="android-drawer-separator"></div>
+      <a class="mdl-navigation__link" routerLink="/">ABOUT US</a>
+      <a class="mdl-navigation__link" routerLink="/">CONTACT US</a>
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link" routerLink="/">Developers</span>
+    </nav>
+  </div>
+
+  <div class="android-content mdl-layout__content">
+    <a name="top"></a>
+    <router-outlet></router-outlet>
+    <footer class="android-footer mdl-mega-footer">
+      <div class="mdl-mega-footer--top-section">
+        <div class="mdl-mega-footer--left-section">
+          <a class="android-link mdl-typography--font-light" routerLink="/">Terms and Conditions</a> |
+          <a class="android-link mdl-typography--font-light" routerLink="/">Privacy Policy</a>
+        </div>
+        <div class="mdl-mega-footer--right-section">
+          <a class="mdl-typography--font-light" href="#top">
+            Back to Top
+            <i class="material-icons">expand_less</i>
+          </a>
+        </div>
+      </div>
+
+      <!--div class="mdl-mega-footer--bottom-section">
+        
+        <button class="mdl-mega-footer--social-btn">Facebook</button>
+          &nbsp;
+          <button class="mdl-mega-footer--social-btn">Twitter</button>
+          &nbsp;
+          <button class="mdl-mega-footer--social-btn">Github</button>
+      </div-->
+
+    </footer>
+    <!-- FOOTER END -->
+  </div>
+</div>
