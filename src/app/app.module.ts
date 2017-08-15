@@ -15,6 +15,7 @@ import { Ng2PaginationModule } from 'ng2-pagination';
 import { NewsService } from './news.service';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { TermsComponent } from './terms/terms.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutComponent } from './about/about.component';
     SportsComponent,
     EntertainmentComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    TermsComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +57,10 @@ import { AboutComponent } from './about/about.component';
       {
         path: 'about',
         component: AboutComponent
+      },
+      {
+        path: 'terms',
+        component: TermsComponent
       }
     ])
   ],
