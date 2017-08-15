@@ -10,6 +10,7 @@ import { NewsService } from '../news.service';
 export class EntertainmentComponent implements OnInit {
 
   allNews = [];
+  page: number = 1;
 
   constructor(private newsService:NewsService) { }
 

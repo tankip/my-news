@@ -1,6 +1,7 @@
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-  <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+ <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+  <div class = "testcontainer">
     <div class="mdl-layout__header-row">
       <span class="android-title mdl-layout-title">
         <h2 class="android-section-title" style="color: #8bc34a;">My News</h2>
@@ -19,11 +20,13 @@
           <a class="mdl-navigation__link mdl-typography--text-uppercase" routerLink="/contact">CONTACT US</a>
         </nav>
       </div>
+      
       <span class="android-mobile-title mdl-layout-title">
         <span style="color: #8bc34a;">My News</span>
         <!--img class="android-logo-image" src="assets/images/android-logo.png"-->
       </span>
     </div>
+  </div>
   </div>
 
   <div class="android-drawer mdl-layout__drawer">
@@ -45,11 +48,13 @@
 
   <div class="android-content mdl-layout__content">
     <a name="top"></a>
+    <div class = "mycontainer">
     <router-outlet></router-outlet>
+    </div>
     <footer class="android-footer mdl-mega-footer">
       <div class="mdl-mega-footer--top-section">
         <div class="mdl-mega-footer--left-section">
-          <a class="android-link mdl-typography--font-light" routerLink="/">Terms and Conditions</a> |
+          <a class="android-link mdl-typography--font-light" routerLink="/terms">Terms and Conditions</a> |
           <a class="android-link mdl-typography--font-light" routerLink="/">Privacy Policy</a>
         </div>
         <div class="mdl-mega-footer--right-section">
