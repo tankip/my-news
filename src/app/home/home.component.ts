@@ -31,6 +31,18 @@ export class HomeComponent implements OnInit {
         news.push(element);
       });
     });
+    this.newsSevice.getEnterNews().subscribe((data) => {
+      data.articles.forEach(element => {
+        news.push(element);
+      });
+    this.newsSevice.getSportNews().subscribe((data) => {
+      data.articles.forEach(element => {
+        news.push(element);
+      });
+      
+    });
+      
+    });
     if(news){
       this.allNews = news;
     }

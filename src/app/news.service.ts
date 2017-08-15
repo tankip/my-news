@@ -6,7 +6,7 @@ import 'rxjs/Rx';
 @Injectable()
 export class NewsService {
   private baseUrl:string = 'https://newsapi.org/v1/articles';
-  private apiKey:string = '';
+  private apiKey:string = '4b60cb6a7714467494d50d7cca19c7e8';
 
   constructor(private http:Http) { }
 

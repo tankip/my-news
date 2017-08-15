@@ -13,6 +13,8 @@ import { EntertainmentComponent } from './entertainment/entertainment.component'
 import { Ng2PaginationModule } from 'ng2-pagination';
 
 import { NewsService } from './news.service';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NewsService } from './news.service';
     HomeComponent,
     TechComponent,
     SportsComponent,
-    EntertainmentComponent
+    EntertainmentComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +47,14 @@ import { NewsService } from './news.service';
       {
         path: 'sports',
         component: SportsComponent
+      },
+      {
+        path: 'contact',
+        component: ContactComponent
+      },
+      {
+        path: 'about',
+        component: AboutComponent
       }
     ])
   ],
