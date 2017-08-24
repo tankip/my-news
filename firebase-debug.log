@@ -1,0 +1,466 @@
+[debug] [2017-08-05T15:15:32.436Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:15:32.440Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:15:32.440Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:15:32.440Z] Platform:      win32
+[debug] [2017-08-05T15:15:32.440Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:15:32.440Z] Time:          Sat Aug 05 2017 18:15:32 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:15:32.440Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:15:32.453Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:15:32.454Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[warn] !  You have have not selected any features. Continuing will simply associate this folder with a Firebase project. Press Ctrl + C if you want to start over.
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:15:50.955Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-05T15:15:50.955Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/5eLZpdbe633nUFsu4rxDRxjKjmNu4qqxDyyjxsnxZj9zIK0ALjiu_eZv0NuI5W-M',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Aug 05 2017 18:15:50 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:16:09.172Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-05T15:16:09.180Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:16:09 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:16:11.979Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-05T15:16:25.784Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:16:25.788Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:16:25.788Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:16:25.788Z] Platform:      win32
+[debug] [2017-08-05T15:16:25.788Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:16:25.788Z] Time:          Sat Aug 05 2017 18:16:25 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:16:25.788Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:16:25.796Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:16:25.800Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[debug] [2017-08-05T15:17:09.283Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:17:09.283Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:17:09.283Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:17:09.283Z] Platform:      win32
+[debug] [2017-08-05T15:17:09.283Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:17:09.287Z] Time:          Sat Aug 05 2017 18:17:09 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:17:09.287Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:17:09.295Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:17:09.295Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:17:20.432Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:17:20 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:17:42.427Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:17:42.431Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:17:42.431Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:17:42.431Z] Platform:      win32
+[debug] [2017-08-05T15:17:42.431Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:17:42.431Z] Time:          Sat Aug 05 2017 18:17:42 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:17:42.431Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:17:42.439Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:17:42.439Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[warn] !  You have have not selected any features. Continuing will simply associate this folder with a Firebase project. Press Ctrl + C if you want to start over.
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:17:48.275Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:17:48 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:18:21.551Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:18:21.556Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:18:21.556Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:18:21.556Z] Platform:      win32
+[debug] [2017-08-05T15:18:21.556Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:18:21.556Z] Time:          Sat Aug 05 2017 18:18:21 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:18:21.556Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:18:21.564Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:18:21.564Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:18:31.416Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:18:31 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:18:33.984Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2017-08-05T15:20:22.599Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ Sat Aug 05 2017 18:20:22 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:20:34.125Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+[debug] [2017-08-05T15:21:32.401Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:21:32.401Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:21:32.401Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:21:32.401Z] Platform:      win32
+[debug] [2017-08-05T15:21:32.401Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:21:32.401Z] Time:          Sat Aug 05 2017 18:21:32 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:21:32.401Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:21:32.413Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:21:32.413Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:21:41.228Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:21:41 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:21:43.170Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote dist/404.html
+[debug] [2017-08-05T15:21:52.087Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ Sat Aug 05 2017 18:21:52 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:22:19.579Z] Error: socket hang up
+    at TLSSocket.onHangUp (_tls_wrap.js:1111:19)
+    at TLSSocket.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at TLSSocket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: Server Error. socket hang up
+[debug] [2017-08-05T15:22:25.641Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:22:25.641Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:22:25.641Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:22:25.641Z] Platform:      win32
+[debug] [2017-08-05T15:22:25.641Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:22:25.641Z] Time:          Sat Aug 05 2017 18:22:25 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:22:25.641Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:22:25.653Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:22:25.653Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:22:32.179Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:22:32 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:23:48.639Z] Error: socket hang up
+    at TLSSocket.onHangUp (_tls_wrap.js:1111:19)
+    at TLSSocket.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at TLSSocket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[error] 
+[error] Error: Server Error. socket hang up
+[debug] [2017-08-05T15:24:21.607Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:24:21.611Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:24:21.611Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:24:21.611Z] Platform:      win32
+[debug] [2017-08-05T15:24:21.611Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:24:21.611Z] Time:          Sat Aug 05 2017 18:24:21 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:24:21.611Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:24:21.622Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:24:21.622Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:24:27.524Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:24:27 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:24:48.556Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
+[debug] [2017-08-05T15:25:06.885Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:25:06.885Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:25:06.885Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:25:06.885Z] Platform:      win32
+[debug] [2017-08-05T15:25:06.885Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:25:06.885Z] Time:          Sat Aug 05 2017 18:25:06 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:25:06.885Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:25:06.897Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:25:06.898Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[debug] [2017-08-05T15:25:31.156Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:25:31.160Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:25:31.160Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:25:31.160Z] Platform:      win32
+[debug] [2017-08-05T15:25:31.160Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:25:31.160Z] Time:          Sat Aug 05 2017 18:25:31 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:25:31.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:25:31.171Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:25:31.171Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:25:38.271Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:25:38 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:25:46.703Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2017-08-05T15:26:25.958Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:26:25.962Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:26:25.962Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:26:25.962Z] Platform:      win32
+[debug] [2017-08-05T15:26:25.962Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:26:25.962Z] Time:          Sat Aug 05 2017 18:26:25 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:26:25.962Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:26:25.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:26:25.974Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:26:31.854Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:26:31 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:26:52.884Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
+[debug] [2017-08-05T15:26:57.333Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:26:57.333Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:26:57.333Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:26:57.333Z] Platform:      win32
+[debug] [2017-08-05T15:26:57.333Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:26:57.333Z] Time:          Sat Aug 05 2017 18:26:57 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:26:57.333Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:26:57.342Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:26:57.342Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[warn] !  You have have not selected any features. Continuing will simply associate this folder with a Firebase project. Press Ctrl + C if you want to start over.
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:27:05.050Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:27:05 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:27:08.002Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-05T15:27:25.010Z] ----------------------------------------------------------------------
+[debug] [2017-08-05T15:27:25.013Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\tanki\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-08-05T15:27:25.013Z] CLI Version:   3.9.2
+[debug] [2017-08-05T15:27:25.013Z] Platform:      win32
+[debug] [2017-08-05T15:27:25.013Z] Node Version:  v6.9.4
+[debug] [2017-08-05T15:27:25.013Z] Time:          Sat Aug 05 2017 18:27:25 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:27:25.013Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-05T15:27:25.019Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-05T15:27:25.019Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\tanki\Documents\Github\personal\news
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-08-05T15:27:30.299Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Aug 05 2017 18:27:30 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:27:43.041Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2017-08-05T15:28:02.111Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ Sat Aug 05 2017 18:28:02 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-08-05T15:28:13.601Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
