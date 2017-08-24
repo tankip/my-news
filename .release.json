@@ -12,11 +12,11 @@
     "tagName": "v%s",
     "tagAnnotation": "Release %s",
     "buildCommand": false,
-    "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]",
+    "changelogCommand": "git log --pretty=format:\"* %s (%h)\" [REV_RANGE]",
     "requireCleanWorkingDir": false,
     "src": {
         "pushRepo": null,
-        "beforeStartCommand": "npm test && npm run build:prod",
+        "beforeStartCommand": "ng build",
         "beforeStageCommand": "node package-snapshot.js",
         "afterReleaseCommand": "node create-snapshot.js"
     },
@@ -39,7 +39,7 @@
         "forcePublishSourceRepo": false
     },
     "github": {
-        "release": false,
+        "release": true,
         "releaseName": "v%s",
         "preRelease": false,
         "tokenRef": "GITHUB_TOKEN"
