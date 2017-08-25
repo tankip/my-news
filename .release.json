@@ -32,10 +32,11 @@
         "afterReleaseCommand": false
     },
     "npm": {
-        "publish": true,
+        "publish": false,
         "publishPath": ".",
         "tag": "latest",
-        "forcePublishSourceRepo": true
+        "private": false,
+        "forcePublishSourceRepo": false
     },
     "github": {
         "release": true,
