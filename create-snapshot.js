@@ -11,7 +11,6 @@ function main() {
     fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
     execSync(`git add -A`);
     execSync(`git commit -m "Updated master to ${nextPatch} snapshot "`);
-    execSync('git push origin master');
     var cb = execSync('git branch | grep \*');
     execSync(`git checkout ${cb}`);
     execSync('rm package-snapshot.json');
