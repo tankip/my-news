@@ -8,12 +8,11 @@ function main() {
     var nextPatch = semver.inc(cleanVersion, 'patch');
     package.version = nextPatch + '-SNAPSHOT';
     var cb = execSync('git symbolic-ref --short HEAD').toString().trim();
-    console.log(`${cb}`);
-    // execSync('git checkout master');
-    // fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
-    // execSync('git add -A');
-    // execSync(`git checkout ${cb}`);
-    // execSync('rm package-snapshot.json');
+    execSync('git checkout master');
+    fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
+    execSync('git add -A');
+    execSync(`git checkout ${cb}`);
+    execSync('rm package-snapshot.json');
     
 }
 
