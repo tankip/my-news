@@ -7,10 +7,10 @@ function main() {
     var cleanVersion = semver.clean(newVersion);
     var nextPatch = semver.inc(cleanVersion, 'patch');
     package.version = nextPatch + '-SNAPSHOT';
+    var cb = execSync('git branch | grep \'*');
     execSync('git checkout master');
     fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
     execSync('git add -A');
-    var cb = execSync('git branch | grep \'*');
     execSync(`git checkout ${cb}`);
     execSync('rm package-snapshot.json');
     
