@@ -11,6 +11,7 @@ function main() {
     execSync('git checkout master');
     fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
     execSync('git add .');
+    execSync(`git commit -m 'Master Updated to ${nextPatch} snapshot '`);
     execSync(`git checkout ${cb}`);
     execSync('rm package-snapshot.json');
     
