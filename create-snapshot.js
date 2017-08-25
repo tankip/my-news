@@ -10,7 +10,7 @@ function main() {
     var cb = execSync('git symbolic-ref --short HEAD').toString().trim();
     execSync('git checkout master');
     fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
-    execSync('git add -A');
+    execSync('git add .');
     execSync(`git checkout ${cb}`);
     execSync('rm package-snapshot.json');
     
