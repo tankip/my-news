@@ -1,6 +1,6 @@
 {
     "name": "news",
-    "version": "4.0.2-SNAPSHOT",
+    "version": "5.0.1-SNAPSHOT",
     "license": "MIT",
     "scripts": {
         "ng": "ng",
