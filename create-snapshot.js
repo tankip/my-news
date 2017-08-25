@@ -10,7 +10,7 @@ function main() {
     fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
     execSync('rm package-snapshot.json');
     execSync('git add -A');
-    execSync(`git commit -m 'Bump ${nextPatch} snapshot '`);
+    execSync('git commit -m "Bump ',`${nextPatch}`,' snapshot "');
 }
 
 main();
