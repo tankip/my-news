@@ -9,7 +9,7 @@ function main() {
     package.version = nextPatch + '-SNAPSHOT';
     execSync('git checkout master');
     fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
-    execSync(`git add -A`);
+    execSync('git add -A');
     execSync(`git commit -m "Updated master to ${nextPatch} snapshot "`);
     var cb = execSync('git branch | grep \*');
     execSync(`git checkout ${cb}`);
