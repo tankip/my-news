@@ -10,7 +10,7 @@ function main() {
     execSync('git checkout master');
     fs.writeFileSync('package.json', JSON.stringify(package, null, 4));
     execSync('git add -A');
-    var cb = execSync(`git branch | grep \*`);
+    var cb = execSync('git branch | grep \'*');
     execSync(`git checkout ${cb}`);
     execSync('rm package-snapshot.json');
     
