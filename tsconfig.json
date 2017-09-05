@@ -1,9 +1,10 @@
 {
-  "compileOnSave": false,
+  "compileOnSave": true,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "baseUrl": "src",
     "sourceMap": true,
+    "module": "commonjs",
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -17,4 +18,6 @@
       "dom"
     ]
   }
+  //"noImplicitAny": true,
+  //"suppressImplicitAnyIndexErrors": true,
 }

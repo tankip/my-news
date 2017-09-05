@@ -65,6 +65,13 @@ import { TermsComponent } from './terms/terms.component';
     ])
   ],
   providers: [NewsService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    Ng2PaginationModule,
+    RouterModule
+  ]
 })
 export class AppModule { }

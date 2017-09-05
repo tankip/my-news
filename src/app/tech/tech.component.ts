@@ -15,6 +15,8 @@ export class TechComponent implements OnInit {
 
   ngOnInit() {
     this.newsService.getTechNews().subscribe((data) => {
+      // console.log(data);
+      // console.log(typeof(data));
       this.allNews = data.articles;
     })
     

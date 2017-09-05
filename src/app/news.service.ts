@@ -22,6 +22,7 @@ export class NewsService {
     return this.http.get(this.getUrl(), {
       search : params
     }).map((response:Response) => {
+      console.log(typeof(response));
       return response.json();
     });
 
