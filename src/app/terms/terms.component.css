@@ -8,11 +8,7 @@
   position: relative;
 }
 
-.container .about1{
-margin-top: 50px;
-margin-bottom: 50px;
-}
-
-.height{
-  height: 500px;
+.container .about{
+margin-top: 60px;
+margin-bottom: 30px;
 }

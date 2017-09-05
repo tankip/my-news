@@ -9,11 +9,14 @@ import { NewsService } from '../news.service';
 })
 export class TechComponent implements OnInit {
   allNews = [];
+  page: number = 1;
 
   constructor(private newsService:NewsService) { }
 
   ngOnInit() {
     this.newsService.getTechNews().subscribe((data) => {
+      // console.log(data);
+      // console.log(typeof(data));
       this.allNews = data.articles;
     })
     

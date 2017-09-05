@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
+    this.app = new AppComponent();
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
@@ -15,6 +16,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
+    expect(this.app.test).toBe('TestExample');
   }));
 
   it(`should have as title 'app works!'`, async(() => {

@@ -23,8 +23,7 @@ export class HomeComponent implements OnInit {
     this.newsSevice.getGoogleNews().subscribe((data) => {
       data.articles.forEach(element => {
         news.push(element);
-      });
-      
+      });  
     });
     this.newsSevice.getTechNews().subscribe((data) => {
      data.articles.forEach(element => {
