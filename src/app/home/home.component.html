@@ -8,7 +8,10 @@
       <div class="mdl-card__title">
           <h4 class="mdl-card__title-text">{{ news.title }}</h4>
       </div>
-        <!--<p>{{ news.publishedAt }}</p-->
+        <div class = "inline">
+        <p>{{ news.publishedAt | date:'short' }}</p>
+        <p>Author: <strong>{{news.author}}</strong></p>
+        </div>
       <div class="mdl-card__supporting-text">
         <span class="mdl-typography--font-light mdl-typography--subhead">{{ news.description }}</span>
       </div>
